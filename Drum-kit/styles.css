@@ -1,0 +1,54 @@
+html {
+    background-image: url(images/142060-vertical-concert-background-1920x1080-macbook.jpg);
+    background-size: cover;
+    font-size: 10px;
+}
+
+body,
+html {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.keys {
+    display: flex;
+    /* flex: 1; */
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.key {
+    border: .4rem solid white;
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    text-align: center;
+    transition: all 0.1s ease;
+    width: 10rem;
+    color: white;
+    background-color: #1D1B1B;
+    /* text-shadow: 0 0 .5rem white; */
+}
+
+kbd {
+    display: block;
+    font-size: 4rem;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #00ffc6;
+    box-shadow: 0 0 1rem #00ffc6;
+    background-color: #00ffc6;
+}
+
+.sound {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #00ffc6;
+}
