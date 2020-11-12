@@ -1,3 +1,2 @@
 # drumkit
-A vanilla Js based drum kit.
-Credit for the tutorial goes to Web bos
+A vanilla JavaScript-based drum kit that emits different drum sound on pressing different keys.
